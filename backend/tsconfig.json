@@ -13,5 +13,9 @@
     "rootDir": "./src",
     "outDir": "./dist"
   },
-  "exclude": ["node_modules"]
+  "exclude": [
+    "drizzle.config.ts", // ビルド対象から除外
+    "node_modules",
+    "dist"
+  ]
 }

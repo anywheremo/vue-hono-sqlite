@@ -48,3 +48,4 @@ __screenshots__/
 *.db-shm
 *.db-wal
 .drizzle/
+/backend/drizzle/*
